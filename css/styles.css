@@ -181,9 +181,10 @@ body {
 .hero {
   text-align: center;
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
-  padding-top: 200px;
   margin-bottom: 30px;
   color: #ffffff;
   font-size: 44px;
@@ -208,7 +209,6 @@ body {
   align-items: center;
   text-align: center;
   cursor: pointer;
-  margin-bottom: 200px;
 }
 .button:hover,
 .button:focus,
@@ -331,13 +331,16 @@ body {
 address {
   margin-top: 20px;
 }
-
+.logo-footer {
+  color: #ffffff;
+}
 .address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
   color: #ffffff;
+  text-decoration: none;
 }
 .address:hover,
 .address:focus,
@@ -349,6 +352,7 @@ address {
   line-height: 1.71;
   font-style: normal;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 .contacts-link:hover,
